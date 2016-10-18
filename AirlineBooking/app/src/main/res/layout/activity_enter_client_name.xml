@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    tools:context="group_0733.csc207project.EnterClientNameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the username of the client whose data you want to view/edit:"
+        android:textSize="23sp"
+        android:layout_marginBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/editClientUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:text="Edit Personal/Billing Information"
+        android:background="@color/colorLightBlue"
+        android:id="@+id/buttonEditInfo"
+        android:layout_margin="7dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goToEdit"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:text="Book Itinerary"
+        android:background="@color/colorLightBlue"
+        android:id="@+id/buttonBookItinerary"
+        android:layout_margin="7dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="goToBooking"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:text="View Booked Itineraries"
+        android:background="@color/colorLightBlue"
+        android:id="@+id/buttonViewBookedItineraries"
+        android:layout_margin="7dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="viewBooked" />
+
+</LinearLayout>

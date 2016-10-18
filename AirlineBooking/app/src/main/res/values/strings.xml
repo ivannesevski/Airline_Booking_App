@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Flight Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="HeaderAdmin">Admin</string>
+    <string name="HeaderClient">Client</string>
+    <string name="fieldName_loginUsername">User Name:</string>
+    <string name="fieldName_loginPassword">Password:</string>
+    <string name="introString">Hello World! From BlueJasmine</string>
+    <!-- Associated Strings to EditInfo-->
+    <string name="field1">Field1</string>
+    <string name="field2">Field2</string>
+    <string name="field3">Field3</string>
+    <string name="field4">Field4</string>
+    <string name="field5">Field5</string>
+</resources>

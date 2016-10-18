@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:layout_marginBottom="30dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" First Name"
+                android:id="@+id/titleClientFirstName"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:inputType="textPersonName"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editClientFirstName"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textClientFirstName"
+                android:soundEffectsEnabled="false"
+                android:visibility="visible"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Last Name"
+                android:id="@+id/titleClientLastName"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:inputType="textPersonName"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editClientLastName"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textClientLastName"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Email (Username)"
+                android:id="@+id/titleClientEmail"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textClientEmail"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:inputType="textPostalAddress"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Address"
+                android:id="@+id/titleClientAddress"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editClientAddress"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textClientAddress"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Card Number"
+                android:id="@+id/titleClientCardNumber"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:inputType="number"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editClientCardNumber"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textClientCardNumber"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Card Expiry Date (YYYY-MM-DD)"
+                android:id="@+id/titleClientCardExpiryDate"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editClientCardExpiryDate"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textClientCardExpiryDate"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Edit"
+            android:textSize="21dp"
+            android:id="@+id/buttonClientEditSave"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</RelativeLayout>

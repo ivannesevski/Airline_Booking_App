@@ -1,0 +1,9 @@
+890,2016-09-29 01:40,2016-09-29 01:59,Go Airline,Toronto,Icetown,532.99,20
+902,2016-09-29 20:37,2016-09-29 23:22,Go Airline,Toronto,Icetown,290.00,12
+814,2016-09-29 02:42,2016-09-29 06:39,Go Airline,Icetown,Ireland,390.00,3
+949,2016-09-30 03:22,2016-09-30 05:40,Go Airline,Icetown,Ireland,290.00,90
+891,2016-09-29 08:40,2016-09-29 11:59,Go Airline,Ireland,Seattle,532.99,22
+903,2016-09-30 08:37,2016-09-30 11:22,Go Airline,Ireland,Seattle,290.00,33
+815,2016-09-29 16:42,2016-09-29 18:39,Go Airline,Seattle,Greenwich,390.00,44
+950,2016-09-30 12:22,2016-09-30 15:40,Go Airline,Seattle,Greenwich,290.00,10
+788,2016-09-09 09:09,2016-09-09 13:27,FlightsRUs,Paris,Stockholmss,300.50,1

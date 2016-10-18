@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="58dp"
+        android:id="@+id/linearLayout"
+        android:weightSum="1"
+        android:layout_alignParentTop="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_marginBottom="50dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Booked Itineraries"
+            android:background="@color/colorLightBlue"
+            android:id="@+id/buttonViewBookedItineraries"
+            android:layout_weight="0.25"
+            android:layout_margin="7dp"
+            android:onClick="viewBooked"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Itinerary"
+            android:background="@color/colorLightBlue"
+            android:id="@+id/buttonBookItinerary"
+            android:layout_weight="0.25"
+            android:layout_margin="7dp"
+            android:onClick="bookItinerary"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Flights"
+            android:id="@+id/buttonSearchFlights"
+            android:layout_margin="7dp"
+            android:layout_weight="0.25"
+            android:background="@color/colorLightBlue"
+            android:onClick="searchFlights"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Personal and Billing Info"
+            android:background="@color/colorLightBlue"
+            android:id="@+id/buttonEditInfo"
+            android:layout_weight="0.25"
+            android:layout_margin="7dp"
+            android:onClick="editInfo"/>
+    </LinearLayout>
+
+</RelativeLayout>

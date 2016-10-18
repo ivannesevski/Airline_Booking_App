@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="group_0733.csc207project" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="group_0733.AirlineBooking.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="group_0733.AirlineBooking.ClientActivity" />
+        <activity android:name="group_0733.AirlineBooking.AdminActivity" />
+        <activity android:name="group_0733.AirlineBooking.EditInfoActivity" />
+        <activity android:name="group_0733.AirlineBooking.EnterClientNameActivity" >
+        </activity>
+        <activity android:name="group_0733.AirlineBooking.EnterFlightNumberActivity" >
+        </activity>
+        <activity android:name="group_0733.AirlineBooking.EditFlightActivity" >
+        </activity>
+        <activity android:name="group_0733.AirlineBooking.UploadDataActivity" >
+        </activity>
+        <activity android:name="group_0733.AirlineBooking.BookItineraryActivity" >
+        </activity>
+        <activity android:name="group_0733.AirlineBooking.SelectItineraryActivity" >
+        </activity>
+        <activity android:name="group_0733.AirlineBooking.ViewItineraryFlightsActivity" >
+        </activity>
+        <activity android:name="group_0733.AirlineBooking.SearchFlightsActivity" >
+        </activity>
+        <activity android:name="group_0733.AirlineBooking.SelectFlightActivity" >
+        </activity>
+        <activity android:name="group_0733.AirlineBooking.ViewBookedItinerariesActivity" >
+        </activity>
+    </application>
+
+</manifest>

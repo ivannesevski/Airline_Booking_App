@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.06">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Origin City:"
+                android:id="@+id/textView2"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/originCity"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:hint="Origin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Destination City:"
+                android:id="@+id/textView3"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/destinationCity"
+                android:layout_weight="0.47"
+                android:textStyle="italic"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:hint="Destination" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Depart Date:"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.03"
+            android:textStyle="bold" />
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Year:"
+                android:id="@+id/textView25"
+                android:layout_weight="1.04"
+                android:layout_marginLeft="5dp" />
+
+            <EditText
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/departYear"
+                android:inputType="date"
+                android:singleLine="true"
+                android:hint="YYYY" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Month:"
+                android:id="@+id/textView26"
+                android:layout_weight="1.04" />
+
+            <EditText
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/departMonth"
+                android:inputType="date"
+                android:singleLine="true"
+                android:hint="MM" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Day:"
+                android:id="@+id/textView27"
+                android:layout_weight="1.04"
+                android:layout_marginLeft="5dp" />
+
+            <EditText
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/departDay"
+                android:inputType="date"
+                android:singleLine="true"
+                android:hint="DD" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:text="Proceed"
+            android:id="@+id/proceedToSelection"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:onClick="proceedToSelection"
+            android:layout_marginTop="50dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

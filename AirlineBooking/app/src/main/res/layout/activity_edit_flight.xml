@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:weightSum="1"
+        android:layout_marginBottom="30dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Departure Date and Time"
+                android:id="@+id/titleDepartureDate"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:singleLine="true"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editDepartureDate"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textDepartureDate"
+                android:soundEffectsEnabled="false"
+                android:visibility="visible"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Arrival Date and Time"
+                android:id="@+id/titleArrivalDate"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:singleLine="true"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editArrivalDate"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textArrivalDate"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Airline"
+                android:id="@+id/titleAirline"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:singleLine="true"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editAirline"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textAirline"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Origin"
+                android:id="@+id/titleOrigin"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editOrigin"
+                android:singleLine="true"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textOrigin"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Destination"
+                android:id="@+id/titleDestination"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:singleLine="true"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editDestination"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/textDestination"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Cost"
+                android:id="@+id/titleCost"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Seats"
+                android:id="@+id/titleSeats"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_weight="1"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editCost"
+                android:singleLine="true"
+                android:inputType="numberDecimal"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_weight="1"
+                android:background="@color/colorLightBlue"
+                android:id="@+id/editSeats"
+                android:singleLine="true"
+                android:inputType="number"
+                android:visibility="gone"
+                android:layout_marginLeft="7dp" />
+
+            <LinearLayout
+                android:id="@+id/costSeatLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:background="@color/colorLightBlue"
+                    android:id="@+id/textCost"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:background="@color/colorLightBlue"
+                    android:id="@+id/textSeats"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Edit"
+            android:textSize="21sp"
+            android:id="@+id/buttonFlightEditSave"
+            android:layout_gravity="center_horizontal"
+            android:onClick="editSave"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
